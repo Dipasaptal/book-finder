@@ -1,0 +1,38 @@
+/* src/App.css */
+.app-container {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.book-results {
+  margin-top: 20px;
+}
+
+.book-item {
+  display: flex;
+  gap: 15px;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+
+.book-item img {
+  max-width: 60px;
+  height: auto;
+}
+
+@media (min-width: 640px) {
+  .app-container {
+    max-width: 600px;
+  }
+}
+
+.serach{
+  background-color: blue;
+}
+.txtbox
+{
+  margin-left: 9rem;
+}
